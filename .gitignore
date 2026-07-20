@@ -1,0 +1,144 @@
+# ==================================================
+# Operating-system files
+# ==================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ==================================================
+# Editor and IDE settings
+# ==================================================
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Vim
+*.swp
+*.swo
+*~
+
+
+# ==================================================
+# C and C++ generated files
+# ==================================================
+
+# Compiled object files
+*.o
+*.obj
+
+# Executable files
+*.exe
+*.out
+a.out
+
+# Libraries
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Debugging and profiling files
+*.dSYM/
+*.pdb
+*.ilk
+
+# Common build directories
+build/
+bin/
+obj/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Generated Make dependencies
+*.d
+
+
+# ==================================================
+# Python generated files
+# ==================================================
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Packaging output
+dist/
+*.egg-info/
+.eggs/
+
+# Type-checker and linter caches
+.mypy_cache/
+.ruff_cache/
+
+
+# ==================================================
+# Java generated files
+# ==================================================
+
+# Compiled Java files
+*.class
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Java package output
+*.jar
+*.war
+*.ear
+
+# Keep Maven and Gradle wrapper JAR files
+!**/.mvn/wrapper/maven-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# Java crash reports
+hs_err_pid*
+replay_pid*
+
+
+# ==================================================
+# Logs, temporary files, and secrets
+# ==================================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
