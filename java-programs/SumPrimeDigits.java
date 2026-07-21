@@ -18,4 +18,3 @@ public class SumPrimeDigits {
         System.out.println(total);
     }
 }
-}
